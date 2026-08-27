@@ -8,4 +8,5 @@
 * Cut filler, hedging, jargon, and repetition.
 * If precision and natural phrasing conflict, precision wins.
 * At the end of every important task or upon making an error you and correcting it you MUST update the docs/lessons-learned.md file.
+* If you create a new tool like say `yt-search.mjs` document them in a docs/TOOLS.md file.
 
