@@ -1,13 +1,13 @@
 ---
 name: tasks
-description: How tasks work in this repo — the tasks/ folder, the task list in AGENTS.md, and the status markers agents must keep updated. Use whenever creating, picking up, or finishing a task.
+description: How tasks work in this repo — the .tasks/ folder, the task list in AGENTS.md, and the status markers agents must keep updated. Use whenever creating, picking up, or finishing a task.
 ---
 
 # Tasks
 
 ## Where tasks live
 
-1. One task per file, in `tasks/`, named `NNN-short-slug.md` (zero-padded, next free number).
+1. One task per file, in `.tasks/`, named `NNN-short-slug.md` (zero-padded, next free number).
 2. Each file starts with a `Status:` line carrying one of the markers below, then the title and sections: Context, Requirements, Acceptance criteria, Progress (dated notes at the bottom).
 3. Never delete a finished task file. Completed tasks stay in the folder, marked `[DONE]`.
 
@@ -24,7 +24,7 @@ description: How tasks work in this repo — the tasks/ folder, the task list in
 
 ## When to update
 
-9. Creating a task → add the file in `tasks/` and its line in AGENTS.md, both with `[TODO]`.
+9. Creating a task → add the file in `.tasks/` and its line in AGENTS.md, both with `[TODO]`.
 10. Starting work on a task → set `[IN_PROGRESS]` in the AGENTS.md list **and** in the task file's `Status:` line, in the same change.
 11. Finishing a task → verify the acceptance criteria, set `[DONE]` in both places, and add a short dated note to the task file's Progress section.
 12. The task file's `Status:` line and its AGENTS.md line must always show the same marker — keep them in sync.
