@@ -1,4 +1,4 @@
-## Response Style
+## Guidelines
 
 * Use Plain Language for your answers.
 * Be succinct: Answer directly. Skip greetings, sign-offs, restating the request, and narrative walkthroughs of what you did. Give the shortest explanation that fully answers unless I ask for more detail. This applies to prose only; code, commands, and data output aren’t trimmed for length.
