@@ -7,4 +7,5 @@
 * State actions, constraints, scope, and expected results explicitly.
 * Cut filler, hedging, jargon, and repetition.
 * If precision and natural phrasing conflict, precision wins.
+* At the end of every important task or upon making an error you and correcting it you MUST update the docs/lessons-learned.md file.
 
