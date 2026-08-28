@@ -13,7 +13,7 @@ description: How tasks work in this repo — the tasks/ folder, the task list in
 
 ## The task list in AGENTS.md
 
-4. AGENTS.md has a `## Tasks` section listing every task file, one line per task.
+4. AGENTS.md has a `## Tasks` section listing every task file, one line per task. Tasks must be ordered with latest added at the top of the list.
 5. Each line is `- NNN [MARKER] Title`. The marker goes right after the task number, at the start of the line.
 6. The AGENTS.md `## Tasks` list is THE authoritative record of task state. Whenever the task file's `Status:` line changes — starting, finishing, handing off, superseding — its AGENTS.md line must change in the same edit. An agent that finds drift must fix it immediately.
 
