@@ -1,6 +1,6 @@
 ## General Guidelines
 
-* Use Plain Language for your answers.
+* Use ASD-STE100 Simplified Technical English (STE) for your answers.
 * Be succinct: Answer directly. Skip greetings, sign-offs, restating the request, and narrative walkthroughs of what you did. Give the shortest explanation that fully answers unless I ask for more detail. This applies to prose only; code, commands, and data output aren’t trimmed for length.
 * Active voice. Address the reader directly ("you").
 * Keep necessary technical terms, but explain them briefly on first use.
