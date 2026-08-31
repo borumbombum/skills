@@ -10,4 +10,4 @@
 * At the end of every important task or upon making an error you and correcting it you MUST update the docs/lessons-learned.md file.
 * If you create a new tool like say `yt-search.mjs` document them in a docs/TOOLS.md file.
 * New skills should go into .agents not .opencode nor .claude
-
+* Avoid assuming things as much as possible (while still being effective); when in doublt verify or ask. Specially on important implementations.
