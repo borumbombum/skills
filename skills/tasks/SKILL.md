@@ -1,13 +1,13 @@
 ---
 name: tasks
-description: How tasks work in this repo — the tasks/ folder, the task list in AGENTS.md, and the status markers agents must keep updated. Use whenever creating, picking up, or finishing a task.
+description: How tasks work in this repo — the .tasks/ folder, the task list in AGENTS.md, and the status markers agents must keep updated. Use whenever creating, picking up, or finishing a task.
 ---
 
 # Tasks
 
 ## Where tasks live
 
-1. One task per file, in `tasks/`, named `NNN-short-slug.md` (zero-padded, next free number).
+1. One task per file, in `.tasks/`, named `NNN-short-slug.md` (zero-padded, next free number).
 2. Each file starts with a `Status:` line carrying one of the markers below, then the title and sections: Context, Requirements, Acceptance criteria, Progress (dated notes at the bottom).
 3. Never delete a finished task file. Completed tasks stay in the folder, marked `[DONE]`. Do not reorder, rename, or delete task files unless explicitly asked.
 
@@ -25,12 +25,12 @@ description: How tasks work in this repo — the tasks/ folder, the task list in
 
 ## Picking the next task
 
-10. Read `tasks/`, list the files sorted by `NNN`, and pick the lowest `NNN` whose status is `[TODO]`. **Exception:** if any task has `HIGH PRIORITY` in its status line, pick that one first regardless of NNN number.
+10. Read `.tasks/`, list the files sorted by `NNN`, and pick the lowest `NNN` whose status is `[TODO]`. **Exception:** if any task has `HIGH PRIORITY` in its status line, pick that one first regardless of NNN number.
 11. Never start a `[DONE]` task, and never start an `[IN_PROGRESS]` task unless you are taking it over (see Progress log below).
 
 ## When to update
 
-12. Creating a task → add the file in `tasks/` and its line in AGENTS.md, both with `[TODO]`.
+12. Creating a task → add the file in `.tasks/` and its line in AGENTS.md, both with `[TODO]`.
 13. Starting work on a task → set `[IN_PROGRESS]` in the AGENTS.md list **and** in the task file's `Status:` line, in the same change, and add the first dated `## Progress` entry. Read the whole task file first (Context / Requirements / Acceptance criteria); ask for tokens if anything is unclear.
 14. Finishing a task → verify the acceptance criteria, set `[DONE]` in both places, and add a short dated note to the task file's Progress section.
 15. After a task is `[DONE]`, stop and report back to the user. Do not auto-continue into the next task in a loop — wait for an explicit order.
