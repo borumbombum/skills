@@ -2,8 +2,11 @@
 
 ## Tasks skill lives in `.tasks/`
 
-- The `tasks` skill stores task files in `.tasks/` (hidden folder), not `tasks/`. The task list and status markers remain in `AGENTS.md`.
-- When creating, picking up, or finishing a task, reference `.tasks/` and keep the file's `Status:` line and the AGENTS.md list in sync.
+- The `tasks` skill stores task files in `.tasks/` (hidden folder), not `tasks/`.
+- The authoritative task list lives in `.tasks/TASKS.md`, not in `AGENTS.md`.
+- `AGENTS.md` carries only a single pointer line to `.tasks/TASKS.md`.
+- When creating, picking up, or finishing a task, reference `.tasks/` and keep the file's `Status:` line and the `.tasks/TASKS.md` list in sync.
+- When migrating a repo to use the skill, move any `## Tasks` list out of `AGENTS.md` into `.tasks/TASKS.md`, keep all status markers and ordering identical, and leave AGENTS.md with only the pointer line.
 
 ## Installable skills live in a `skills/` container
 
