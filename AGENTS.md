@@ -12,3 +12,5 @@
 * New skills should go into .agents not .opencode nor .claude
 * Avoid assuming things as much as possible (while still being effective); when in doublt verify or ask. Specially on important implementations.
 * If you find yourself in trouble of solving a problem check docs/lessons-learned.md.
+* Never run any destructive action (git reset --hard, git clean, force-push, deleting files or branches, dropping changes) without asking the user first.
+
